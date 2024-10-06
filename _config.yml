@@ -18,7 +18,7 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "https://ZEUS-Blog.github.io" # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : "https://inu-capstone-zeus.github.io" # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : "/"
 title   : "ZEUS"
 description: > # this means to ignore newlines until "Language & timezone"
@@ -27,15 +27,15 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: ko # the language of your site, default as "en"
+timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : organization # "person" (default), "organization"
+  name      : INU-ZEUS
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: INU-Capstone-ZEUS/ZEUS-Blog
+repository: INU-Capstone-ZEUS/inu-capstone-zeus.github.io
 repository_tree: master
 
 
